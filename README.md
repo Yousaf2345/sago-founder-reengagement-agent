@@ -28,6 +28,14 @@ Sago’s Founder Re-Engagement Agent acts as an autonomous assistant that:
 
 ---
 
+## End-to-End Example
+
+1. Investor labels a Gmail thread as "Too Early"
+2. Sago begins monitoring the founder
+3. A Seed round is detected
+4. The decision engine confirms re-engagement is warranted
+5. A personalized outreach email is drafted in Gmail
+
 ## Design Principles Alignment
 
 ### Seamless Integration
@@ -61,9 +69,13 @@ The system is composed of modular components:
 - Outreach Generator – Drafts personalized messages
 - Action Executor – Creates Gmail drafts or sends emails
 
+
 ---
 
 ## Status
 
 This repository is a conceptual prototype. External integrations and APIs are mocked to focus on agent logic, decision-making, and system design rather than full implementation.
+
+📄 System Architecture: /architecture/Sago_Founder_Reengagement_Agent_Architecture.pdf
+
 
